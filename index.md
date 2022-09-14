@@ -12,9 +12,8 @@ services:
     from the above-mentioned pipeline. '
   heading: Web, Python, JavaScript (TypeScript) Clients
   icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing services to support
-    the biotechnology sector.
-  heading: BioTech
+- description: Graphical plugin for data retrieval
+  heading: Desktop GIS plugin
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: University of Maryland
 textline: |-
