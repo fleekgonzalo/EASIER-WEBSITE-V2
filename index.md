@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
+banner_image: "/uploads/2022/09/14/earth.jpg"
 layout: landing-page
 heading: The EASIER Data Initiative
 partners:
