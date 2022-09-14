@@ -4,9 +4,8 @@ banner_image: "/img/banner.png"
 layout: landing-page
 heading: The EASIER Data Initiative
 partners:
-- "/uploads/2017/11/13/stem.png"
-- "/uploads/2017/11/13/UPenn_logo.png"
-- "/uploads/2017/11/13/nysed.png"
+- "/uploads/2022/09/14/umd.svg"
+- "/uploads/2022/09/14/ffdw.svg"
 services:
 - description: 'API-based - for accessible retrieval of heterogeneous spatial data
     from the above-mentioned pipeline. '
