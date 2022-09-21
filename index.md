@@ -6,7 +6,10 @@ heading: The EASIER Data Initiative
 partners:
 - "/uploads/2022/09/14/umd.svg"
 - "/uploads/2022/09/14/ffdw.svg"
-services: []
+services:
+- heading: Test
+  description: test
+  icon: "/uploads/2017/11/13/health.png"
 sub_heading: University of Maryland
 textline: |-
   The EASIER Data Initiative
