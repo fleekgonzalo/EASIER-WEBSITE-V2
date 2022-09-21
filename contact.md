@@ -11,14 +11,6 @@ menu:
     weight: 4
 
 ---
-## Hours of Operation
-
-The EASIER Data Initiative is available:
-
-* **Monday-Friday**, 8:00am to 6:00pm EST
-* **Saturdays**, 8:00am to 5:00pm EST
-* **Sundays**, 9:00am to 12:00pm EST
-
 ## Contact Information
 
 {% include address.html %}
