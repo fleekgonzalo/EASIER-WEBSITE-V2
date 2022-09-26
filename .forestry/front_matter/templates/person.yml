@@ -40,7 +40,3 @@ fields:
   type: text
   hidden: true
   default: person
-pages:
-- _people/john-solly.md
-- _people/taylor-m.oshan.md
-- _people/zheng-liu.md
