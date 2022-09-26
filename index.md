@@ -8,10 +8,7 @@ partners:
 - "/uploads/2022/09/14/ffdw.svg"
 services: []
 sub_heading: University of Maryland
-textline: |-
-  The EASIER Data Initiative
-
-  Ora et Labora
+textline: The EASIER Data Initiative
 hero_button:
   text: Learn more
   href: "/about"
