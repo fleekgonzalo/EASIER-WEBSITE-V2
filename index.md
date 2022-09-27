@@ -8,7 +8,7 @@ partners:
 - "/uploads/2022/09/14/ffdw.svg"
 services: []
 sub_heading: University of Maryland
-textline: The EASIER Data Initiative
+textline: ''
 hero_button:
   text: Learn more
   href: "/about"
