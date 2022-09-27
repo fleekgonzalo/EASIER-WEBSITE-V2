@@ -641,22 +641,23 @@ p {
   margin: 0;
 }
 .logo a {
-  margin-top: 7px;
   display: block;
-  background-image: url(../img/logo.png);
+  background-image: url(../img/logo-retina.png);
+  background-size: contain;
+  width: 120px;
+  height: 100px;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 300px;
-  background-size: 300px;
-  height: 56px;
   text-indent: -9999px;
   overflow: hidden;
   float: left;
 }
-@media {
+/* @media {
   .logo a {
     background-image: url(../img/logo-retina.png);
+    
   }
-}
+} */
 .plain-header {
   background: #f4f4f4;
   padding: 40px;
