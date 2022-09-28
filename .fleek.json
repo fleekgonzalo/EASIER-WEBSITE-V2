@@ -1,0 +1,5 @@
+{
+    "build": {
+      "command": "apk update && apk install libc6-compat"
+    }
+   }
