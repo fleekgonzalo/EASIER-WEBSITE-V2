@@ -3,9 +3,60 @@
 {% endcomment %}
 
 {% assign url = page.url | remove:'index.html' %}
-
-<header class="site-header">
-  <div class="container">
+<header class="site-header fs-5">
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg main-nav" aria-label="Top navbar navigation">
+    <div class="container">
+      <a id="solly-nav-brand" href="">
+        <img src="{{ "/img/logo-retina.png" | absolute_url }}" alt="blogthedata.com logo. A blue hexagon."
+          width="167" height="100" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navigation navbar-nav mb-lg-0 ms-auto">
+          {% for link in site.menus.navigation %}
+          <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}">
+            {% if link.children %}
+            <ul class="first-level">
+              {% for child in link.children %}
+              <li>
+                {% if child.children %}
+                <ul class="second-level">
+                  {% for child in child.children %}
+                  <li>
+                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
+                  </li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+                <a href="{{ child.url | absolute_url }}"{% if child.target %} target="_blank" {% endif %}>
+                  {{ child.title }}
+                  {% if child.childen %}
+                    <i class='icon-right-dir-2'></i>
+                  {% endif %}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+            <a href="{{ link.url | absolute_url }}"{% if link.target %} target="_blank" {% endif %}>
+                  {{ link.title }}
+                  {% if link.childen %}
+                    <i class='icon-chevron-down'></i>
+                  {% endif %}
+                </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav Bar -->
+</header>
+  <!-- <div class="container">
       <h1 class="logo">
         <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
       </h1>
@@ -46,5 +97,5 @@
           {% endfor %}
         </ul>
     </nav>
-  </div>
-</header>
+  </div> -->
+

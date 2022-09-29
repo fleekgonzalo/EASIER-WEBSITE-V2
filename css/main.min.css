@@ -630,7 +630,7 @@ p {
 }
 .site-header {
   min-height: 90px;
-  padding-top: 10px;
+  padding-top: 0px;
   margin: 0 auto;
   background-color: #fff;
   border-bottom: 1px solid rgba(#8b2004, 0.1);
@@ -843,10 +843,10 @@ nav ul {
 nav ul a {
   text-decoration: none;
 }
-.main-nav ul {
+/* .main-nav ul {
   float: right;
   margin-top: 14px;
-}
+} */
 .main-nav li {
   float: left;
   margin: 0;
@@ -912,7 +912,7 @@ nav ul a {
 .navigation {
   margin-bottom: 0;
   margin-left: 0;
-  margin-top: 20px;
+  margin-top: 14px;
   list-style-type: none;
 }
 .navigation li {
@@ -4118,3 +4118,8 @@ nav ul a {
   font-weight: 900;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+/* .navbar-toggler {
+  background-color: black;
+} */
