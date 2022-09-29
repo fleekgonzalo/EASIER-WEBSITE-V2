@@ -4,7 +4,7 @@ role:
 layout: person
 title: John Solly
 sub_heading: Faculty Specialist; Geospatial Developer
-thumbnail: "/uploads/2022/09/27/jsolly_tall.JPG"
+thumbnail: "/uploads/2022/09/29/jsolly_tall.JPG"
 email: jsolly@umd.edu
 linkedin: ''
 twitter: _jsolly
