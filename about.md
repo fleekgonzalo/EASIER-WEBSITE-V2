@@ -1,7 +1,7 @@
 ---
 title: About
 date: '2017-11-01T03:00:00.000+00:00'
-banner_image: "/uploads/2022/09/29/maryland-900x600.png"
+banner_image: "/uploads/2022/09/29/marylandm.jpg"
 heading: About EASIER
 sub_heading: ''
 layout: landing-page
