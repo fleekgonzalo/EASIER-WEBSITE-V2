@@ -1,7 +1,7 @@
 title: The EASIER Data Initiative
 short_title: EASIER
 description: Developing decentralized cyberinfrastructure for efficiently, accessibly, and sustainably onloading, analyzing, and extracting spatial data.
-baseurl:
+url: https://easierdata.org
 permalink: "/:path/"
 defaults:
   - scope:
