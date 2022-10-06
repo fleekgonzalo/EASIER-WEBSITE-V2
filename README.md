@@ -32,7 +32,7 @@
 - **Option 2**
   - 👯 Clone to your local machine using:
     ```shell
-    $ git clone git@github.com:easierdata/easier.git
+    $ git clone git@github.com:easierdata/EASIER-WEBSITE-V2.git
     ```
 ### Step 2
 
@@ -40,7 +40,7 @@
 ### Step 3
 
 - 🔃 Create a new pull request using:
-  <a href="https://github.com/easierdata/easier/compare" rel="noopener noreferrer" target="_blank">
+  <a href="https://github.com/easierdata/EASIER-WEBSITE-V2/compare" rel="noopener noreferrer" target="_blank">
   `https://github.com/easierdata/easier/compare`</a>.
 
 ---
