@@ -16,6 +16,7 @@ https://jekyllrb.com/docs/installation/
 $ git clone git@github.com:easierdata/EASIER-WEBSITE-V2.git
 $ cd EASIER-WEBSITE-V2
 $ gem install jekyll bundler
+$ bundle install
 $ bundle exec jekyll serve
 ```
 See https://jekyllrb.com/docs/ and https://jekyllrb.com/docs/usage/ for more information.
