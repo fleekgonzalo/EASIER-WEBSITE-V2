@@ -8,7 +8,7 @@ partners:
 - "/uploads/2022/09/14/ffdw.svg"
 services: []
 sub_heading: University of Maryland
-textline: Test
+textline: ''
 hero_button:
   text: Learn more
   href: "/about"
@@ -18,6 +18,6 @@ menu:
   navigation:
     identifier: _index
     weight: 1
-published: false
 
 ---
+test
