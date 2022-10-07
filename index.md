@@ -7,8 +7,9 @@ partners:
 - "/uploads/2022/09/14/umd.svg"
 - "/uploads/2022/09/14/ffdw.svg"
 services: []
-sub_heading: University of Maryland, College Park
-textline: ''
+sub_heading: Efficient, Accessible, and Sustainable Infrastructure for Extracting
+  Reliable Data for the World's Location-Based Assets
+textline: Test
 hero_button:
   text: Learn more
   href: "/about"
