@@ -7,7 +7,7 @@ partners:
 - "/uploads/2022/09/14/umd.svg"
 - "/uploads/2022/09/14/ffdw.svg"
 services: []
-sub_heading: University of Maryland
+sub_heading: University of Maryland, College Park
 textline: ''
 hero_button:
   text: Learn more
